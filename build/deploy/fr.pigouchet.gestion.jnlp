@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="fr.pigouchet.gestion.jnlp">
+  <information>
+    <title>fr.pigouchet.gestion</title>
+    <vendor>pigouchet.fr</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="fr.pigouchet.gestion.jar" size="36022" download="eager" />
+    <jar href="libs/derby.jar" size="3103132" download="eager" />
+    <jar href="libs/eclipselink-2.4.2.jar" size="8650465" download="eager" />
+    <jar href="libs/eclipselink-javax.persistence-2.0.jar" size="121031" download="eager" />
+    <jar href="libs/itextpdf-5.5.6.jar" size="2265668" download="eager" />
+    <jar href="libs/javax.persistence.jar" size="129793" download="eager" />
+    <jar href="libs/ojdbc6.jar" size="1988051" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="fr.pigouchet.gestion.MainApp"  name="Gestionnaire" />
+  <update check="background"/>
+</jnlp>
